@@ -13,10 +13,10 @@ void calculateMirrorCoordinates()
 	float B;
 	float C;
 
-	printf("Input coordinate X and Y: ");
+	printf("Input coordinates X and Y: ");
 	scanf_s("%f%f", &x0, &y0);
 	
-	printf("Input a, b and c for equation ax + by + c = 0: ");
+	printf("Input a, b and c for the equation ax + by + c = 0: ");
 	scanf_s("%f%f%f", &A, &B, &C);
 
 	float xi, yi;
