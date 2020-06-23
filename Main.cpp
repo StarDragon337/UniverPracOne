@@ -26,7 +26,7 @@ void calculateMirrorCoordinates()
 		xi = x0;
 		yi = -C / B;
 	}
-	else if (A != 0.0 && B == 0.0)
+	else if (A != 0.0 && B == 0.0) 
 	{
 		xi = -C / A;
 		yi = y0;
